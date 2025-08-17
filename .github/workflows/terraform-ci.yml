@@ -22,7 +22,7 @@ jobs:
 
       - name: Terraform Init
         run: terraform init -backend=false
-x
+
       - name: Terraform Validate
         run: terraform validate
 
